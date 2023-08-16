@@ -254,6 +254,16 @@ animation: fadeIn 8s infinite;
     padding-top: 40%;
 }
 
-
-
 /* <!-- END OF CARD SESSION --> */
+
+
+/* <!-- BEGINNING OF LAST FOOTER --> */
+
+.last-footer {
+    background-color: #263238;
+}
+
+
+
+
+/* <!-- END OF LAST FOOTER --> */
