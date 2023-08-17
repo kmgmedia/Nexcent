@@ -26,6 +26,17 @@
 animation: fadeIn 8s infinite;
 
 
+@keyframes fadeIn {
+    0% {
+    opacity: 0;
+}
+100% {
+    opacity: 1;
+}
+}
+
+animation: fadeIn 5s infinite;
+
 #body {
     margin: 0;
     padding: 0;
@@ -53,6 +64,7 @@ animation: fadeIn 8s infinite;
     padding: 20% 0% 3% 0%;
     margin-bottom: 10,
 }
+
 
 .span {
     color: #4CAF4F;
@@ -114,7 +126,8 @@ animation: fadeIn 8s infinite;
 /* BEGINNING OF OUR CLIENTS SESSION */
 
 /* .our-clients {
-    background-color: #f9fcff;
+
+    background-color: none;
     
 } */
 
@@ -135,7 +148,7 @@ animation: fadeIn 8s infinite;
 }
 
 .companies-logo {
-    padding-left: 37%;
+    padding-left: 34%;
     padding-top: 2%;
 }
 
@@ -168,6 +181,7 @@ animation: fadeIn 8s infinite;
     padding: 20px 20px 10px 20px;
 }
 
+
 .card-im {
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: 30px 30px;
@@ -186,10 +200,11 @@ animation: fadeIn 8s infinite;
 
 
 
-/* <!-- BEGINNING OF THE UNSEEN SESSION --> */
+/* <!-- BEGINNING OF THE UNSEEN AND HOW TO DESIGN --> */
+
 
 .main-img-2 {
-    padding-bottom: 10%;
+    padding-bottom: 20%;
 }
 
 .main-img-2 img {
@@ -206,15 +221,81 @@ animation: fadeIn 8s infinite;
 
 .maintext-2 p {
     font-size: 15px;
+    font-weight: 500;
+    color: #4D4D4D;
+}
+/* <!-- END OF THE UNSEEN AND HOW TO DESIGN --> */
+
+
+
+/* <!-- BEGINNING OF Helping --> */
+
+.maintext-3 {
+    padding-top: 3%;
+    padding-bottom: 30%;
+}
+
+.maintext-3 h4 {
+    font-size: 35px;
+}
+
+.maintext-3 span {
+    color: #4CAF4F;
+    font-weight: 600;
+}
+
+.maintext-3 p {
+    font-size: 15px;
     color: #4D4D4D;
 }
 
+.main-img-3 {
+    padding-left: 55%;
+    padding-top: 3%;
+    width: max-content;
+    animation: fadeIn 3s infinite
+}
 
+/* <!-- END OF Helping --> */
 
+/* <!-- BEGINNING OF OUR JOURNEY SESSION --> */
 
+.maintext-44 {
+    padding-bottom: 15%;
+}
 
-/* <!-- END OF THE UNSEEN SESSION --> */
+.our-journey {
+    padding-bottom: 2%;
+    font-size: 15px;
+    color: #4D4D4D;
+    font-weight: 500;
+} 
 
+.ceo-name {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4CAF4F;
+}
+
+.ceo-title {
+    font-size: 15px;
+    color: #717171;
+    font-weight: 500;
+}
+
+.ceos-companies img {
+    padding-top: 3%;
+    margin-right: 5%;
+    width: 4%;
+    padding-bottom: 2%;
+}
+
+.meet-all {
+    padding-left: 80%;
+    color: #4CAF4F;
+}
+
+/* <!-- END OF OUR JOURNEY SESSION --> */
 
 
 /* <!-- BEGINNING OF CARD SESSION --> */
@@ -223,7 +304,7 @@ animation: fadeIn 8s infinite;
     text-align: center;
     font-size: 20px;
     color: #4D4D4D;
-    padding-top: 5%;
+    padding-top: 10%;
     background-color: #f6fff6;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;;
     border-radius: 10px;
@@ -238,7 +319,6 @@ animation: fadeIn 8s infinite;
 .card-body {
     padding-top: 60% !important;
 }
-
 
 .span {
     padding-top: 10%;
@@ -255,7 +335,6 @@ animation: fadeIn 8s infinite;
 }
 
 /* <!-- END OF CARD SESSION --> */
-
 
 
 /* <!-- BEGINNING OF CHILDREN SESSION --> */
