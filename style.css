@@ -110,6 +110,10 @@ animation: fadeIn 5s infinite;
     margin-top: 5%;
 }
 
+.btn-register:hover, .btn-register:focus {
+    background-color: #717171;
+}
+
 .maintext p {
     color: #717171;
     font-size: 18px;
@@ -196,8 +200,12 @@ animation: fadeIn 5s infinite;
     padding-bottom: 5%;
 }
 
-/* <!-- END OF MEMBERSHIP SESSION --> */
+.card-im:hover, .card-im:focus {
+    background-color: var(#4CAF4F)
+    color: #F5F7FA;
+}
 
+/* <!-- END OF MEMBERSHIP SESSION --> */
 
 
 /* <!-- BEGINNING OF THE UNSEEN AND HOW TO DESIGN --> */
@@ -256,6 +264,7 @@ animation: fadeIn 5s infinite;
 }
 
 /* <!-- END OF Helping --> */
+
 
 /* <!-- BEGINNING OF OUR JOURNEY SESSION --> */
 
@@ -397,8 +406,5 @@ animation: fadeIn 5s infinite;
 .last-footer {
     background-color: #263238;
 }
-
-
-
 
 /* <!-- END OF LAST FOOTER --> */
