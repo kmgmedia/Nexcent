@@ -73,7 +73,7 @@ animation: fadeIn 5s infinite;
 
 .main-img img {
     padding: 10% 5% 10% 0%;
-    
+    transform: scale(1);
 }
 
 .nav-link {
@@ -94,6 +94,7 @@ animation: fadeIn 5s infinite;
     font-size: 16px;
     font-weight: 500;
     padding: 12px 50px;
+    transition-duration: 2S;
 }
 
 .btn-register {
@@ -187,6 +188,7 @@ animation: fadeIn 5s infinite;
 
 
 .card-im {
+    border-radius: 3%;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     margin: 30px 30px;
 }
@@ -203,6 +205,7 @@ animation: fadeIn 5s infinite;
 .card-im:hover, .card-im:focus {
     background-color: #4CAF4F;
     color: #F5F7FA;
+    border-radius: 3%;
 }
 
 /* <!-- END OF MEMBERSHIP SESSION --> */
@@ -405,6 +408,44 @@ animation: fadeIn 5s infinite;
 
 .last-footer {
     background-color: #263238;
+    padding-bottom: 4%;
+}
+
+.container {
+    background-color: none;
 }
 
 /* <!-- END OF LAST FOOTER --> */
+
+
+
+@media screen and (max-width: 1180px) {
+
+    .maintext h1 {
+        font-size: 45px;
+        margin-top: -20%;
+    }
+
+    .maintext p {
+        margin-top: -4;
+        font-size: 14px;
+    }
+
+    .main-img img {
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .our-clients h1 {
+        text-align: center;
+    }
+
+    .our-clients p {
+        padding-right: 5%;
+    }
+
+    .companies-logo {
+        padding-left: 10%;
+        margin-right: 2%;
+    }
+}
