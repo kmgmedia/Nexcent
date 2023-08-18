@@ -201,7 +201,7 @@ animation: fadeIn 5s infinite;
 }
 
 .card-im:hover, .card-im:focus {
-    background-color: var(#4CAF4F)
+    background-color: #4CAF4F;
     color: #F5F7FA;
 }
 
