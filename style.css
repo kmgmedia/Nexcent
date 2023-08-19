@@ -71,8 +71,9 @@ animation: fadeIn 5s infinite;
 }
 
 .main-img img {
-    padding: 10% 5% 10% 0%;
+    padding: 5% 5% 10% 0%;
     transform: scale(1);
+    width: 130%;
 }
 
 .nav-link {
@@ -120,7 +121,7 @@ animation: fadeIn 5s infinite;
 }
 
 .all-ellipse {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 50%;
 }
 
@@ -213,7 +214,8 @@ animation: fadeIn 5s infinite;
 
 
 .main-img-2 {
-    padding-bottom: 20%;
+    padding-top: 3%;
+    padding-bottom: 10%;
 }
 
 .main-img-2 img {
@@ -268,6 +270,8 @@ animation: fadeIn 5s infinite;
 
 
 /* <!-- BEGINNING OF OUR JOURNEY SESSION --> */
+
+
 
 .maintext-44 {
     padding-bottom: 15%;
@@ -432,7 +436,14 @@ animation: fadeIn 5s infinite;
 
     .main-img img {
         width: 100%;
-        padding-left: 10%;
+        padding-top: 15%;
+        padding-left: 5%;
+    }
+
+    .main-img-2 img {
+        width: 100%;
+        padding-top: 0%;
+        padding-left: 0%;
     }
 
     .btn-register-1 {
