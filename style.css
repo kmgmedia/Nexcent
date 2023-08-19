@@ -46,8 +46,7 @@ animation: fadeIn 5s infinite;
 
 .row {
     margin: 0 !important;
-    background-color: #f9fffa;
-
+    background-color: none
 }
 
 /* .bg-color {
@@ -94,7 +93,6 @@ animation: fadeIn 5s infinite;
     font-size: 16px;
     font-weight: 500;
     padding: 12px 50px;
-    transition-duration: 2S;
 }
 
 .btn-register {
@@ -154,7 +152,7 @@ animation: fadeIn 5s infinite;
 }
 
 .companies-logo {
-    padding-left: 34%;
+    padding-left: 38%;
 }
 
 .manage {
@@ -408,7 +406,8 @@ animation: fadeIn 5s infinite;
 
 .last-footer {
     background-color: #263238;
-    padding-bottom: 4%;
+    padding-bottom: 2%;
+    color: aliceblue;
 }
 
 .container {
@@ -436,6 +435,14 @@ animation: fadeIn 5s infinite;
         padding-left: 10%;
     }
 
+    .btn-register-1 {
+
+        padding: 5px 15px;
+    }
+
+
+
+
     .our-clients h1 {
         text-align: center;
     }
@@ -447,5 +454,19 @@ animation: fadeIn 5s infinite;
     .companies-logo {
         padding-left: 10%;
         margin-right: 2%;
+    }
+
+    .manage {
+        padding-left: 3%;
+    }
+
+    .manage h3 {
+        font-size: 20px;
+        padding-top: 10%;
+        text-align: center;
+    }
+
+    .manage p {
+        font-size: 15px;
     }
 }
