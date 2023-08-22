@@ -378,7 +378,7 @@ animation: fadeIn 5s infinite;
     padding-bottom: 5%;
 }
 .children h1 {
-    font-size: 62px;
+    font-size: 58px;
     font-weight: 700;
     color: #263238
 }
@@ -410,7 +410,7 @@ animation: fadeIn 5s infinite;
 
 .last-footer {
     background-color: #263238;
-    padding-bottom: 2%;
+    padding-bottom: %;
     color: aliceblue;
 }
 
