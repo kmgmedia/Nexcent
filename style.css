@@ -275,6 +275,11 @@ animation: fadeIn 5s infinite;
 
 .maintext-44 {
     padding-bottom: 15%;
+    padding-top: 5%;
+}
+
+.main-img-444 img {
+    padding-top: 7%;
 }
 
 .our-journey {
