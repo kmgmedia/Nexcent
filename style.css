@@ -427,7 +427,7 @@ animation: fadeIn 5s infinite;
 
 
 
-@media screen and (max-width: 1180px) {
+@media screen and (max-width: 768px) {
 
     .maintext h1 {
         font-size: 45px;
@@ -456,6 +456,9 @@ animation: fadeIn 5s infinite;
         padding: 5px 15px;
     }
 
+    .btn-register {
+        padding: 10px 20px;
+    }
 
 
 
@@ -468,8 +471,7 @@ animation: fadeIn 5s infinite;
     }
 
     .companies-logo {
-        padding-left: 10%;
-        margin-right: 2%;
+        size: 10px;
     }
 
     .manage {
@@ -484,5 +486,17 @@ animation: fadeIn 5s infinite;
 
     .manage p {
         font-size: 15px;
+    }
+
+    .maintext-3 h4 {
+        padding-top: 40px;
+        
+    }
+
+    .main-img-3 img {
+        padding-left: 5%;
+        padding-right: 5%;
+        padding-bottom: 10%;
+        width: 100%;
     }
 }
