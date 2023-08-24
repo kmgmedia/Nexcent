@@ -472,6 +472,7 @@ animation: fadeIn 5s infinite;
 
     .companies-logo {
         size: 10px;
+        padding-left: 10%;
     }
 
     .manage {
