@@ -64,6 +64,13 @@ animation: fadeIn 5s infinite;
     margin-bottom: 10,
 }
 
+.maintext {
+    padding-top: 5%;
+}
+
+.main-img {
+    padding-top: 20%;
+}
 
 .span {
     color: #4CAF4F;
@@ -77,7 +84,6 @@ animation: fadeIn 5s infinite;
 }
 
 .nav-link {
-    padding-right:
     font-size: 15px;
     font-weight: 700;
     margin: 15px;
@@ -93,7 +99,7 @@ animation: fadeIn 5s infinite;
     cursor: pointer;
     font-size: 16px;
     font-weight: 500;
-    padding: 12px 50px;
+    padding: 5px 40px;
 }
 
 .btn-register {
